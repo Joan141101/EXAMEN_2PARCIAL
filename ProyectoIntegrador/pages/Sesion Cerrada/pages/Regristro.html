@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registro</title>
+    <link href="/assets/Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/assets/stylus/stylus.css">
+    
+  </head>
+  <body>
+    <!--header-->
+    <header><img class="m-auto d-flex" id="logo" src="/assets/img/logocuadrado.png" alt=""></header>
+
+    <header class="p-3 mb-3 border-bottom sticky-lg-top">
+        <div class="">
+          <div class="d-flex flex-wrap align-items-center justify-content-end justify-content-lg-start">
+            <div class="dropdown">
+                <button class="btn  btn-write text-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="bi bi-list logo"></i></button>
+              </div>
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="/index.html" class="nav-link px-2 "><button class="btn btn-outline-dark sinborde">Home</button></a></li>
+              <li><a href="/pages/Sesion Cerrada/pages/acercade.html" class="nav-link px-2 "><button class="btn btn-outline-dark sinborde">¿Quienes somos?</button></a></li>
+              <li><a href="/pages/Sesion Cerrada/pages/soporte.html" class="nav-link px-2 "><button class="btn btn-outline-dark sinborde">Contactanos</button></a></li>
+            </ul>
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+              <input type="search" class="form-control" placeholder="Buscar..." aria-label="Search">
+            </form>
+    
+            <div class="text-end">
+              <a class="link-dark d-inline-flex text-decoration-none rounded"  href="/pages/Sesion Cerrada/pages/iniciosesion.html"><button type="button" class="btn btn-outline-dark me-2" >Iniciar Sesion</button></a>
+                <a class="link-dark d-inline-flex text-decoration-none rounded" href="/pages/Sesion Cerrada/pages/Regristro.html"><button type="button" class="btn btn-warning">Registrate</button></a>
+              </div>
+          </div>
+        </div>
+      </header>
+    <!--header-->
+
+    <!----------------Insertar--------------------------------------Contenido------------------------------Aqui--------------------------->
+
+    <div class="row " >
+
+      <div class="w-50 m-auto rounded-4 border bgb p-3">
+        <h4 class="mb-3 text-center">Regristro</h4>
+        <form class="needs-validation" novalidate="" action="/pages/Sesion Cerrada/pages/felicidades.html">
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="firstName" class="form-label">Primer Nombre</label>
+              <input type="text" class="form-control" id="firstName" placeholder="Nombre" value="" required="">
+              <div class="invalid-feedback">
+                Escribe tu primer nombre
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <label for="lastName" class="form-label">Apellidos</label>
+              <input type="text" class="form-control" id="lastName" placeholder="Apellidos" value="" required="">
+              <div class="invalid-feedback">
+                Escribe tus apelliddos
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="username" class="form-label">Nombre de usuario</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text">@</span>
+                <input type="text" class="form-control" id="username" placeholder="Usuario" required>
+              <div class="invalid-feedback">
+                  Escibre tu nombre de usuario
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="email" class="form-label">Corre Electronico <span class="text-muted">(Obligatorio)</label>
+              <input type="email" class="form-control" id="email" placeholder="ejemplo@gmail.com">
+              <div class="invalid-feedback">
+               Escribe tu correo electronico para tu registro
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="address" class="form-label">Contraseña</label>
+              <input type="text" class="form-control" id="address" placeholder="8 digitos" required="">
+              <div class="invalid-feedback">
+                Contraseña
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="address2" class="form-label">Direccion<span class="text-muted">(Opcional)</span></label>
+              <input type="text" class="form-control" id="address2" placeholder="">
+            </div>
+
+            <div class="col-md-5">
+              <label for="country" class="form-label">País</label>
+              <select class="form-select" id="country" required="">
+                <option value="">Elegir...</option>
+                <option>Estados Unidos</option>
+                <option>México</option>
+              </select>
+              <div class="invalid-feedback">
+               Valida un país
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <label for="state" class="form-label">Estado</label>
+              <select class="form-select" id="state" required="">
+                <option value="">Elegir...</option>
+                <option>California</option>
+                <option>Texas</option>
+                <option>DF(México)</option>
+                <option>Campeche(México)</option>
+                <option>Yucatán(México)</option>
+              </select>
+              <div class="invalid-feedback">
+                Proporcione un estado válido.
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <label for="zip" class="form-label">Código Postal</label>
+              <input type="text" class="form-control" id="zip" placeholder="" required="">
+              <div class="invalid-feedback">
+                CP requerido
+              </div>
+            </div>
+          </div>
+
+          <hr class="my-4">
+
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="same-address">
+            <label class="form-check-label" for="same-address">Acepto terminos y condiciones</label>
+          </div>
+
+          
+          
+
+          <hr class="my-4">
+
+          <div class="text-center mb-1"><a  href="/pages/Sesion Cerrada/pages/iniciosesion.html">¿Tienes Cuenta?</a></div>
+
+          <button class="w-100 btn btn-primary btn-lg"
+           type="submit">Registrate</button>
+        </form>
+      </div>
+    </div>
+
+    <!----------------Insertar-------------------------------------Contenido--------------------------------Aqui-------------------------->
+    <!--menu-->
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+      <div class="offcanvas-header">
+        <img class="logo" src="/assets/img/logocuadrado.png" alt="">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <hr class="h-color mx-3">
+      <div class="offcanvas-body">
+        <form class="d-flex mb-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+            <ul class="list-unstyled ps-0">
+            
+                <li><a href="/index.html" class="link-dark d-inline-flex text-decoration-none rounded amor mb-2"><i class="bi bi-house-door-fill"></i><div class="m-1"></div>Home</a></li>
+
+                <li><a href="/pages/Sesion Cerrada/pages/soporte.html" class="link-dark d-inline-flex text-decoration-none rounded amor"><i class="bi bi-chat-left-text"></i><div class="m-1"></div>Soporte Tecnico</a></li>
+              <li class="mb-1">
+                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapsea" aria-expanded="false">
+                    <i class="bi bi-chevron-down"></i><div class="m-1"><i class="bi bi-bookmark-heart-fill"></i></div>Premium
+                </button>
+                <div class="collapse" id="orders-collapsea">
+                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li><a href="/pages/Sesion Cerrada/premium/Promociones.html" class="link-dark d-inline-flex text-decoration-none rounded ms-5"><i class="bi bi-basket2"></i><div class="m-1"></div> Promociones</a></li>
+                    <li><a href="/pages/Sesion Cerrada/premium/Planes.html" class="link-dark d-inline-flex text-decoration-none rounded ms-5"><i class="bi bi-cart-plus"></i><div class="m-1"></div> Planes</a></li>
+                    <li><a href="/pages/Sesion Cerrada/premium/Acercanosotros.html" class="link-dark d-inline-flex text-decoration-none rounded ms-5"><i class="bi bi-info-circle-fill"></i><div class="m-1"></div> Informacion</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="border-top my-3"></li>
+              <div class="text-center mb-2"><a href=""  data-bs-toggle="modal" data-bs-target="#exampleModal2">Reportar problema</a></div>
+              <div class="text-center">
+                <a class="link-dark d-inline-flex text-decoration-none rounded"  href="/pages/Sesion Cerrada/pages/iniciosesion.html"><button type="button" class="btn btn-outline-dark me-2" >Login</button></a>
+                <a class="link-dark d-inline-flex text-decoration-none rounded" href="/pages/Sesion Cerrada/pages/Regristro.html"><button type="button" class="btn btn-warning">Registrate</button></a>
+              </div>
+            </ul>
+            
+          </div>
+    </div>
+    <!--menu-->
+    <!--footer-->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+              <img src="/assets/img/logocuadrado.png" height="24">
+            </a>
+            <span class="mb-3 mb-md-0 text-muted">© 2022 Desarrollado por Argel Alberto Cano Morales</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-whatsapp"></i></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-facebook"></i></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-instagram"></i></a></li>
+          </ul>
+        </footer>
+      </div>
+    <!--footer-->
+    <!-- Modal Reporte -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header ">
+            <h5 class="modal-title" id="exampleModalLabel2">Reportar problemas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+            <div class="mb-3">
+                <label for="recipient-name" class="col-form-label">Correo</label>
+                <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="mb-3">
+                <label for="message-text" class="col-form-label">Descripcion:</label>
+                <textarea class="form-control" id="message-text"></textarea>
+            </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary">Envíar</button>
+        </div>
+        </div>
+    </div>
+    </div>
+    <!-- Modal Reporte -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ficha Cliente</title>
+    <link href="/assets/Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/assets/stylus/stylus.css">
+    
+  </head>
+  <body>
+      <!--heraders plantilla sesion abierta-->
+      <!--heraders-->
+      <!--heraders-->
+      <header><img class="m-auto d-flex" id="logo" src="/assets/img/logocuadrado.png" alt=""></header>
+      <header class="p-3 mb-3 border-bottom sticky-lg-top">
+          <div class="">
+            <div class="d-flex flex-wrap align-items-center justify-content-end justify-content-lg-start">
+              <div class="dropdown">
+                  <button class="btn btn-write text-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="bi bi-list logo"></i></button>
+                </div>
+              <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="/pages/SesionAbierta/home.html" class="nav-link px-2 link-dark"><botton class="btn btn-outline-dark sinborde">Home</botton></a></li>
+                <li><a href="/pages/SesionAbierta/Consultas/DarConsultas.html" class="nav-link px-2 link-dark"><button class="btn btn-outline-dark sinborde">Dar Consulta</button></a></li>
+                <li><a href="/pages/SesionAbierta/premiun/Acercanosotros.html" class="nav-link px-2 link-dark"><button class="btn btn-outline-dark sinborde">¿Quienes somos?</button></a></li>
+                <li><a href="/pages/SesionAbierta/inbox/Sopertetecnico.html" class="nav-link px-2 link-dark"><button class="btn btn-outline-dark sinborde">Contactanos</button></a></li>
+                <li><a href="#" class="d-block link-dark text-decoration-none dropdown-toggle btn  " id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="bi bi-bell-fill"></i>
+                </a>
+                <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+                  <li><a class="dropdown-item" href="/pages/SesionAbierta/Consultas/Confirmacion.html"><i class="bi bi-broadcast"></i> Tienes una nueva Consulta</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="/pages/SesionAbierta/inbox/Mensajeria.html"><i class="bi bi-envelope"></i> Tienes un mensaje nuevo</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="/pages/SesionAbierta/Reportes/transaciones.html"><i class="bi bi-check-circle-fill"></i> Transferencia exitosa</a></li>
+                </ul></li>
+              </ul>
+      
+              <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+              </form>
+      
+              <div class="dropdown text-end">
+                <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser12" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+                </a>
+                <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser12">
+                  <li><a class="dropdown-item" href="/pages/SesionAbierta/payment/CuentaBancario.html">Cuenta Bancaria</a></li>
+                  <li><a class="dropdown-item" href="/pages/SesionAbierta/Cuenta/configuraciones.html">Configuraciones</a></li>
+                  <li><a class="dropdown-item" href="/pages/SesionAbierta/Cuenta/Informacion.html">Perfil</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModal">Cerrar sesion</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      </header>
+        <!--Terminacion de heraders-->
+      <!--Terminacion de heraders-->
+      <!--inserter contenido solo aqui--><!--inserter contenido solo aqui--><!--inserter contenido solo aqui-->
+
+    
+      <div class="container">
+        <h3 class="text-dark mb-4"></h3>
+        <div class="row mb-3">
+            <div class="col-lg-4">
+                <div class="card mb-3">
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                            <h6 class="text-primary fw-bold m-0"><img class="w-100" src="/assets/img/nutriologo.jpg" /></h6>
+                        </div>
+                        <div class="card-body text-center"><button class="btn btn-primary btn-sm" type="submit" >Descargar Información cliente </button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="row mb-3 d-none">
+                    <div class="col">
+                        <div class="card text-white bg-primary shadow">
+                            <div class="card-body">
+                                <div class="row mb-2">
+                                    <div class="col">
+                                        <p class="m-0">Peformance</p>
+                                        <p class="m-0"><strong>65.2%</strong></p>
+                                    </div>
+                                    <div class="col-auto"><i class="fas fa-rocket fa-2x"></i></div>
+                                </div>
+                                <p class="text-white-50 small m-0"><i class="fas fa-arrow-up"></i> 5% since last month</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card text-white bg-success shadow">
+                            <div class="card-body">
+                                <div class="row mb-2">
+                                    <div class="col">
+                                        <p class="m-0">Peformance</p>
+                                        <p class="m-0"><strong>65.2%</strong></p>
+                                    </div>
+                                    <div class="col-auto"><i class="fas fa-rocket fa-2x"></i></div>
+                                </div>
+                                <p class="text-white-50 small m-0"><i class="fas fa-arrow-up"></i> 5% since last month</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="card shadow mb-3">
+                            <div class="card-header py-3">
+                                <p class="text-dark m-0 fw-bold">Argel Alberto Cano Morales</p>
+                            </div>
+                            <div class="card-body">
+                                <form>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="mb-3"><label class="form-label" for="first_name"><strong>Edad</strong></label></div><label class="form-label">20</label>
+                                        </div>
+                                        <div class="col">
+                                            <div class="mb-3"><label class="form-label" for="last_name"><strong>Peso</strong></label></div><label class="form-label">76</label>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3"></div>
+                                </form>
+                                <form>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="mb-3"><label class="form-label" for="first_name"><strong>Estatura</strong></label></div><label class="form-label">1.69</label>
+                                        </div>
+                                        <div class="col">
+                                            <div class="mb-3"><label class="form-label" for="last_name"><strong>IMC</strong></label></div><label class="form-label">10:00 PM</label>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3"></div>
+                                </form>
+                                <form>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="mb-3"><label class="form-label" for="first_name"><strong>Ubicación</strong></label></div><label class="form-label">Mérida, Yucatan </label>
+                                        </div>
+                                        <div class="col">
+                                            <div class="mb-3"><label class="form-label" for="last_name"><strong>Progreso</strong></label></div><label class="form-label">Negativo</label>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card shadow mb-3">
+          <div class="card-header py-3">
+              <p class="text-dark m-0 fw-bold">Descripción</p>
+          </div>
+          <div class="card-body">
+              <form>
+                  <div class="row">
+                      <div class="col"><label class="col-form-label">Marta tiene el pelo rubio, largo y rizado. Sus ojos son azules y mide 1.65 de altura. Es esbelta y sus piernas son largas, por lo que su aspecto es elegante.</label></div>
+                  </div>
+                  <div class="mb-3"></div>
+              </form>
+          </div>
+      </div>
+    </div>
+
+
+                   <!--Grafico-->
+          <h1 class="text-center mb-4">Progreso</h1>
+          <div class="card shadow mb- w-75 m-auto 4 mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">Proyectos</h6>
+            </div>
+            <div class="card-body">
+                <h4 class="small font-weight-bold">Migracion del servidor<span class="float-right">20%</span></h4>
+                <div class="progress mb-4">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <h4 class="small font-weight-bold">Seguimientos de consultas <span class="float-right">40%</span></h4>
+                <div class="progress mb-4">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <h4 class="small font-weight-bold">Customer Database <span class="float-right">60%</span></h4>
+                <div class="progress mb-4">
+                    <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <h4 class="small font-weight-bold">Payout Details <span class="float-right">80%</span></h4>
+                <div class="progress mb-4">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <h4 class="small font-weight-bold">Account Setup <span class="float-right">Completado</span></h4>
+                <div class="progress">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+        </div>     
+          <!--tabla-->
+
+          <table class="table align-middle mb-0 bg-white w-75 m-auto rounded-5">
+            <thead class="bg-light">
+              <tr>
+                <th scope="col">Nombre del cliente</th>
+                <th scope="col">Numero de Cliente</th>
+                <th scope="col">peso</th>
+                <th scope="col">Estatura</th>
+                <th scope="col">IMC</th>
+                <th scope="col">Estado</th>
+                <th scope="col">Edad</th>
+                <th scope="col">Progreso</th>
+                <th scope="col">Visualizar</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="d-flex align-items-center">
+                    <img
+                        src="https://mdbootstrap.com/img/new/avatars/8.jpg"
+                        alt=""
+                        style="width: 45px; height: 45px"
+                        class="rounded-circle"
+                        />
+                    <div class="ms-3">
+                      <p class="fw-bold mb-1">Alberto Varguez</p>
+                      <p class="text-muted mb-0">BetitaV7@gmail.com</p>
+                    </div>
+                  </div>
+                </td>
+                <td>1001</td>
+                <td>60</td>
+                <td>1.60</td>
+                <td>22</td>
+                <td>Adecuado</td>
+                <td>22</td>
+                <td>Positivo</td>
+                <td><a href="/pages/SesionAbierta/Reportes/FichaCliente.html" class="bi bi-eye-fill" ></a></td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="d-flex align-items-center">
+                    <img
+                        src="https://mdbootstrap.com/img/new/avatars/8.jpg"
+                        alt=""
+                        style="width: 45px; height: 45px"
+                        class="rounded-circle"
+                        />
+                    <div class="ms-3">
+                      <p class="fw-bold mb-1">Carlos Gongora</p>
+                      <p class="text-muted mb-0">CarlosG89@gmail.com</p>
+                    </div>
+                  </div>
+                </td>
+                <td>1001</td>
+                <td>60</td>
+                <td>1.60</td>
+                <td>22</td>
+                <td>Adecuado</td>
+                <td>22</td>
+                <td>Positivo</td>
+                <td><a href="/pages/SesionAbierta/Reportes/FichaCliente.html" class="bi bi-eye-fill" ></a></td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="d-flex align-items-center">
+                    <img
+                        src="https://mdbootstrap.com/img/new/avatars/8.jpg"
+                        alt=""
+                        style="width: 45px; height: 45px"
+                        class="rounded-circle"
+                        />
+                    <div class="ms-3">
+                      <p class="fw-bold mb-1">María Perera</p>
+                      <p class="text-muted mb-0">mariaP74@gmail.com</p>
+                    </div>
+                  </div>
+                </td>
+                <td>1001</td>
+                <td>60</td>
+                <td>1.60</td>
+                <td>22</td>
+                <td>Adecuado</td>
+                <td>22</td>
+                <td>Positivo</td>
+                <td><a href="/pages/SesionAbierta/Reportes/FichaCliente.html" class="bi bi-eye-fill" ></a></td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="d-flex align-items-center">
+                    <img
+                        src="https://mdbootstrap.com/img/new/avatars/8.jpg"
+                        alt=""
+                        style="width: 45px; height: 45px"
+                        class="rounded-circle"
+                        />
+                    <div class="ms-3">
+                      <p class="fw-bold mb-1">Johnny Bravo</p>
+                      <p class="text-muted mb-0">elmasguapo69@gmail.com</p>
+                    </div>
+                  </div>
+                </td>
+                <td>1001</td>
+                <td>60</td>
+                <td>1.60</td>
+                <td>22</td>
+                <td>Adecuado</td>
+                <td>22</td>
+                <td>Positivo</td>
+                <td><a href="/pages/SesionAbierta/Reportes/FichaCliente.html" class="bi bi-eye-fill" ></a></td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="d-flex align-items-center">
+                    <img
+                        src="https://mdbootstrap.com/img/new/avatars/8.jpg"
+                        alt=""
+                        style="width: 45px; height: 45px"
+                        class="rounded-circle"
+                        />
+                    <div class="ms-3">
+                      <p class="fw-bold mb-1">Wisin Ozuna Kakaroto</p>
+                      <p class="text-muted mb-0">dragonballzbrr@gmail.com</p>
+                    </div>
+                  </div>
+                </td>
+                <td>1001</td>
+                <td>60</td>
+                <td>1.60</td>
+                <td>22</td>
+                <td>Adecuado</td>
+                <td>22</td>
+                <td>Positivo</td>
+                <td><a href="/pages/SesionAbierta/Reportes/FichaCliente.html" class="bi bi-eye-fill" ></a></td>
+              </tr>
+            </tbody>
+          </table>
+          <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center mt-3">
+              <li class="page-item disabled">
+                <a class="page-link">Previo</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+              </li>
+            </ul>
+          </nav>
+
+          <!--notas-->
+          
+          <div class="p-5 mb-4 bg-light rounded-3 w-75 m-auto mt-5">
+            <div class="container-fluid py-5">
+              <h1 class="display-5 fw-bold">Notas</h1>
+              <p class="col-md-8 fs-4">Ganancias del mes </p>
+              <a href="/pages/SesionAbierta/Reportes/Ganancias.html"><button class="btn btn-primary btn-lg" type="button">Agregar Nota</button></a>
+            </div>
+          </div>
+
+      
+
+      <!--insertes arriba--><!--inserter contenido--><!--inserter contenido-->
+      <!--Comienzo se complemento-->
+      <!--menu-->
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+      <div class="offcanvas-header">
+        <img class="logo" src="/assets/img/logocuadrado.png" alt="">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <hr class="h-color mx-3">
+      <div class="offcanvas-body">
+        <form class="d-flex mb-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+            <ul class="list-unstyled ps-0">
+            
+                <li><a href="/pages/SesionAbierta/home.html" class="link-dark d-inline-flex text-decoration-none rounded amor"><i class="bi bi-house-door-fill"></i>Home</a></li>
+
+              <li class="mb-1">
+                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
+                    <i class="bi bi-chevron-down"></i><div class="m-1"><i class="bi bi-speedometer2"></i></div>Reportes
+                </button>
+                <div class="collapse" id="home-collapse" >
+                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li><a href="/pages/SesionAbierta/Reportes/Ganancias.html" class="link-dark d-inline-flex text-decoration-none rounded ms-5"><i class="bi bi-bank2"></i><div class="m-1"></div> Ganancias</a></li>
+                    <li><a href="/pages/SesionAbierta/Reportes/Clientes.html" class="link-dark d-inline-flex text-decoration-none rounded ms-5"><i class="bi bi-people-fill"></i><div class="m-1"></div> Clientes</a></li>
+                    <li><a href="/pages/SesionAbierta/Reportes/Consultas.html" class="link-dark d-inline-flex text-decoration-none rounded ms-5"><i class="bi bi-clipboard2-pulse-fill"></i><div class="m-1"></div> Consultas</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="mb-1">
+                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                    <i class="bi bi-chevron-down"></i><div class="m-1"><i class="bi bi-inbox-fill"></i></div>Inbox
+                </button>
+                <div class="collapse" id="dashboard-collapse">
+                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li><a href="/pages/SesionAbierta/inbox/Mensajeria.html" class="link-dark d-inline-flex text-decoration-none rounded ms-5"><i class="bi bi-chat-dots-fill"></i><div class="m-1"></div> Mensajes</a></li>
+                    <li><a href="/pages/SesionAbierta/inbox/Socialfeed.html" class="link-dark d-inline-flex text-decoration-none rounded ms-5"><i class="bi bi-rss-fill"></i><div class="m-1"></div> Social feed</a></li>
+                    <li><a href="/pages/SesionAbierta/inbox/Sopertetecnico.html" class="link-dark d-inline-flex text-decoration-none rounded ms-5"><i class="bi bi-question-circle-fill"></i><div class="m-1"></div> Chat de ayuda</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="mb-1">
+                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+                    <i class="bi bi-chevron-down"></i><div class="m-1"><i class="bi bi-clipboard-heart"></i></div>Consultas
+                </button>
+                <div class="collapse" id="orders-collapse">
+                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li><a href="/pages/SesionAbierta/Consultas/Confirmacion.html" class="link-dark d-inline-flex text-decoration-none rounded ms-5"><i class="bi bi-check-circle-fill"></i><div class="m-1"></div> Confirmacion</a></li>
+                    <li><a href="/pages/SesionAbierta/Consultas/ConsultasPendientes.html" class="link-dark d-inline-flex text-decoration-none rounded ms-5"><i class="bi bi-calendar-week-fill"></i><div class="m-1"></div> Consultas pendientes</a></li>
+                    <li><a href="/pages/SesionAbierta/Consultas/Cancelaciones.html" class="link-dark d-inline-flex text-decoration-none rounded ms-5"><i class="bi bi-x-square-fill"></i><div class="m-1"></div> Cancelaciones</a></li>
+                    <li><a href="/pages/SesionAbierta/Consultas/DarConsultas.html" class="link-dark d-inline-flex text-decoration-none rounded ms-5"><i class="bi bi-megaphone-fill"></i><div class="m-1"></div> Dar Consultas</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="mb-1">
+                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapsea11" aria-expanded="false">
+                    <i class="bi bi-chevron-down"></i><div class="m-1"><i class="bi bi-cart-plus-fill"></i></div>payment
+                </button>
+                <div class="collapse" id="orders-collapsea11">
+                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li><a href="/pages/SesionAbierta/payment/MetodoPago.html" class="link-dark d-inline-flex text-decoration-none rounded ms-5"><i class="bi bi-credit-card-fill"></i><div class="m-1"></div> Metodo de pago</a></li>
+                    <li><a href="/pages/SesionAbierta/payment/CuentaBancario.html" class="link-dark d-inline-flex text-decoration-none rounded ms-5"><i class="bi bi-wallet2"></i><div class="m-1"></div> Cuenta bancaria</a></li>
+                    <li><a href="/pages/SesionAbierta/payment/Retirar.html" class="link-dark d-inline-flex text-decoration-none rounded ms-5"><i class="bi bi-credit-card"></i><div class="m-1"></div> Retiro de Efectivo</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="mb-1">
+                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapsea" aria-expanded="false">
+                    <i class="bi bi-chevron-down"></i><div class="m-1"><i class="bi bi-bookmark-heart-fill"></i></div>premium
+                </button>
+                <div class="collapse" id="orders-collapsea">
+                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li><a href="/pages/SesionAbierta/premiun/Promociones.html" class="link-dark d-inline-flex text-decoration-none rounded ms-5"><i class="bi bi-basket2"></i><div class="m-1"></div> Promociones</a></li>
+                    <li><a href="/pages/SesionAbierta/premiun/Planes.html" class="link-dark d-inline-flex text-decoration-none rounded ms-5"><i class="bi bi-cart-plus"></i><div class="m-1"></div> Planes</a></li>
+                    <li><a href="/pages/SesionAbierta/premiun/Acercanosotros.html" class="link-dark d-inline-flex text-decoration-none rounded ms-5"><i class="bi bi-info-circle-fill"></i><div class="m-1"></div> Informacion</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="border-top my-3"></li>
+              <li class="mb-1">
+                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+                    <i class="bi bi-chevron-down"></i><div class="m-1"><i class="bi bi-person-fill"></i></div>Cuenta
+                </button>
+                <div class="collapse" id="account-collapse">
+                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li><a href="/pages/SesionAbierta/Cuenta/Informacion.html" class="link-dark d-inline-flex text-decoration-none rounded ms-5"><i class="bi bi-person-lines-fill"></i><div class="m-1"></div> Perfil</a></li>
+                    <li><a href="/pages/SesionAbierta/Cuenta/configuraciones.html" class="link-dark d-inline-flex text-decoration-none rounded ms-5"><i class="bi bi-gear-fill"></i><div class="m-1"></div> Configuraciones</a></li>
+                    <li><a href="/index.html" class="link-dark d-inline-flex text-decoration-none rounded ms-5"><i class="bi bi-box-arrow-right"></i><div class="m-1"></div>Sign out</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="border-top my-3 text-center"></li>
+              <div class="text-center mb-2"><a href=""  data-bs-toggle="modal" data-bs-target="#exampleModal2">Reportar problema</a></div>
+              <div class="text-center">
+                <button type="button" class="btn btn-warning"><a class="link-dark d-inline-flex text-decoration-none rounded" data-bs-toggle="modal" data-bs-target="#exampleModal">Cerrar sesion</a></button>
+              </div>
+            </ul>
+            
+          </div>
+    </div>
+
+      <!--footer-->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+              <img src="/assets/img/logocuadrado.png" height="24">
+            </a>
+            <span class="mb-3 mb-md-0 text-muted">© 2022 Desarrollado por Argel Alberto Cano Morales</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-whatsapp"></i></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-facebook"></i></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-instagram"></i></a></li>
+          </ul>
+        </footer>
+      </div>
+
+      <!-- Modal Salir sesion -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cerrar sesion</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ¿Seguro que quieres salir?
+      </div>
+      <div class="modal-footer">
+        <a href="/index.html"><button type="button" class="btn btn-secondary" >Salir</button></a>
+        <button type="button" class="btn btn-primary"  data-bs-dismiss="modal">Cancelar</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
+      <!-- Modal Reporte -->
+      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header ">
+              <h5 class="modal-title" id="exampleModalLabel2">Reportar problemas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Correo</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="mb-3">
+                  <label for="message-text" class="col-form-label">Drescripcion:</label>
+                  <textarea class="form-control" id="message-text"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Send message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Terminacion se complemento-->
+
+      <!--scripts-->     
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script src="/assets/js/js.js"></script>
+    <!-- terminacion scripts-->
+  </body>
+</html>
